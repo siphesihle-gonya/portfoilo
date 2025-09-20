@@ -79,12 +79,14 @@
                       const item = document.createElement("div")
                       
                       item.innerHTML = `
+                      <div class="project">
                         <img src="${project.image}" class="img-fluid" alt="image">
                         <div class="portfolio-info">
                           <h4>${project.title}</h4>
                           <p >${project.description}</p>
                           <a href="${project.redirect_url}" title="More Details" class="details-link"><i class="bi bi-link-45deg">Live Demo</i></a>
                           </div>       
+                        </div>
                           `;
                       container.appendChild(item);
                     });

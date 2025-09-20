@@ -179,7 +179,7 @@ h6 {
   transition: 0.3s;
   font-size: 16px;
 }
-div.project{
+.project{
   width=25%;
 }
 .header .header-social-links a:hover {
